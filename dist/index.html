@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dar</title>
+    <link rel="stylesheet" href="../index.css">
+  </head>
+  <body>
+    <main>
+      <section class="leftPanel border">
+        <div id="videoContainer">
+          <video id="video" controls preload="auto"></video>
+        </div>
+        <div class="margin-5 spaceAround">
+          <button id="playpause" class="button">Play</button>
+        </div>
+        <div class="margin-5 spaceAround">
+          <button id="back" class="button">Back</button>
+          <button id="next" class="button">Next</button>
+        </div>
+      </section>
+      <section class="rightPanel border">
+        <div id="videoMoods" class="margin-5 spaceAround">
+          <button id="normal" class="button selectedMode">Normal</button>
+          <button id="shuffle" class="button">Shuffle</button>
+          <!-- <button id="random" class="button mode">Random</button> -->
+        </div>
+        <div id="videoList">
+          <ul id="dynamic-list">
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!-- <script src="../src/index.js"></script> -->
+    <script src="main.js"></script>
+  </body>
+</html>
